@@ -51,7 +51,7 @@ public class JavaH2ApplicationTests {
 
     @Test
     public void updateSecurityInfo() {
-        securityInfoService.updateSecurityInfo( 30,1l);
+        securityInfoService.updateSecurityInfo( 30,3L);
     }
 
     @Test

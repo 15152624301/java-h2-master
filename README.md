@@ -1,10 +1,7 @@
 # java-h2-master
-测试代码
+测试步骤：
 
-
-使用postman测试工具
-
-1.测试保存接口
+1.新增数据接口
 
 url：http://localhost:8080/demo/saveTransactions
 method:Post
