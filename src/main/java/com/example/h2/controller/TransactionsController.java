@@ -2,7 +2,6 @@ package com.example.h2.controller;
 
 import com.example.h2.Data.TransactionsData;
 import com.example.h2.entity.SecurityInfo;
-import com.example.h2.entity.TradeInfo;
 import com.example.h2.entity.Transactions;
 import com.example.h2.services.SecurityInfoService;
 import com.example.h2.services.TradeInfoService;
@@ -53,12 +52,5 @@ public class TransactionsController {
         return securityInfoService.findAllSecurityInfo();
     }
 
-    /**
-     * 查询交易流水号
-     * */
-    @RequestMapping("/queryTradeNumber")
-    public List<TradeInfo> queryTradeNumber() {
-        return tradeInfoService.findAll();
-    }
 
 }

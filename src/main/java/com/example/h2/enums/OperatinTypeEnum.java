@@ -4,7 +4,7 @@ public enum OperatinTypeEnum {
 
     INSERT("INSERT", "新增"),
     UPDATE("UPDATE", "更新"),
-    CANCLE("CANCLE", "取消");
+    CANCLE("CANCEL", "取消");
 
     private String code;
 

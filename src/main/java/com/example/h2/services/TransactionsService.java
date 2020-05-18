@@ -191,7 +191,7 @@ public class TransactionsService {
     }
 
 
-    public TradeInfo getTradeNumber() {
+    private TradeInfo getTradeNumber() {
         //初始化数据库，判断库中是否有数据
         List<TradeInfo> all = tradeInfoRepository.findAll();
 

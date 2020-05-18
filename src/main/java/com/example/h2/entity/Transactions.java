@@ -13,7 +13,7 @@ import javax.persistence.Table;
 public class Transactions {
     @Id
     @GeneratedValue
-    private Long TransactionID;
+    private Long transactionID;
 
     private Integer traeId;
 

@@ -21,11 +21,6 @@ public class SecurityInfoService {
        return securityInfoRepository.save(securityInfo);
     }
 
-    public List<SecurityInfo> querySecurityInfoByCode(String securityCode) {
-
-        return securityInfoRepository.findByCode(securityCode);
-    }
-
     public int updateSecurityInfo(Integer quantity, Long id) {
       return   securityInfoRepository.updateSecurityInfo(quantity,id);
     }
